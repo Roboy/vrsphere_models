@@ -1,0 +1,103 @@
+#  These controllers are loaded by the robot.launch script, the following types are available
+#  #  type: cardsflow/kindyn/TorquePositionController
+#  #  type: cardsflow/kindyn/CableLengthController
+#  #  type: cardsflow/kindyn/ForcePositionController
+spine_axis0:
+  joint: spine_axis0
+  type: cardsflow/kindyn/CableLengthController
+spine_axis1:
+  joint: spine_axis1
+  type: cardsflow/kindyn/CableLengthController
+spine_axis2:
+  joint: spine_axis2
+  type: cardsflow/kindyn/CableLengthController
+
+shoulder_left_axis0:
+  joint: shoulder_left_axis0
+  type: cardsflow/kindyn/CableLengthController
+shoulder_left_axis1:
+  joint: shoulder_left_axis1
+  type: cardsflow/kindyn/CableLengthController
+shoulder_left_axis2:
+  joint: shoulder_left_axis2
+  type: cardsflow/kindyn/CableLengthController
+
+elbow_left_axis0:
+  joint: elbow_left_axis0
+  type: cardsflow/kindyn/CableLengthController
+elbow_left_axis1:
+  joint: elbow_left_axis1
+  type: cardsflow/kindyn/CableLengthController
+elbow_left_axis2:
+  joint: elbow_left_axis2
+  type: cardsflow/kindyn/CableLengthController
+
+wrist_left_axis0:
+  joint: wrist_left_axis0
+  type: cardsflow/kindyn/TorquePositionController
+wrist_left_axis1:
+  joint: wrist_left_axis1
+  type: cardsflow/kindyn/TorquePositionController
+wrist_left_axis2:
+  joint: wrist_left_axis2
+  type: cardsflow/kindyn/TorquePositionController
+
+outer_sphere_wrist_0_axis0:
+  joint: outer_sphere_wrist_0_axis0
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_wrist_0_axis1:
+  joint: outer_sphere_wrist_0_axis1
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_wrist_0_axis2:
+  joint: outer_sphere_wrist_0_axis2
+  type: cardsflow/kindyn/TorquePositionController
+
+outer_sphere_wrist_1_axis0:
+  joint: outer_sphere_wrist_1_axis0
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_wrist_1_axis1:
+  joint: outer_sphere_wrist_1_axis1
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_wrist_1_axis2:
+  joint: outer_sphere_wrist_1_axis2
+  type: cardsflow/kindyn/TorquePositionController
+
+outer_sphere_wrist_2_axis0:
+  joint: outer_sphere_wrist_2_axis0
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_wrist_2_axis1:
+  joint: outer_sphere_wrist_2_axis1
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_wrist_2_axis2:
+  joint: outer_sphere_wrist_2_axis2
+  type: cardsflow/kindyn/TorquePositionController
+
+outer_sphere_elbow_0_axis0:
+  joint: outer_sphere_elbow_0_axis0
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_elbow_0_axis1:
+  joint: outer_sphere_elbow_0_axis1
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_elbow_0_axis2:
+  joint: outer_sphere_elbow_0_axis2
+  type: cardsflow/kindyn/TorquePositionController
+
+outer_sphere_elbow_1_axis0:
+  joint: outer_sphere_elbow_1_axis0
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_elbow_1_axis1:
+  joint: outer_sphere_elbow_1_axis1
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_elbow_1_axis2:
+  joint: outer_sphere_elbow_1_axis2
+  type: cardsflow/kindyn/TorquePositionController
+
+outer_sphere_elbow_2_axis0:
+  joint: outer_sphere_elbow_2_axis0
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_elbow_2_axis1:
+  joint: outer_sphere_elbow_2_axis1
+  type: cardsflow/kindyn/TorquePositionController
+outer_sphere_elbow_2_axis2:
+  joint: outer_sphere_elbow_2_axis2
+  type: cardsflow/kindyn/TorquePositionController

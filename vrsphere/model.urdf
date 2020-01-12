@@ -1,0 +1,957 @@
+<robot name="vrsphere">
+  <joint name="elbow_ring_right_0" type="revolute">
+    <parent link="upper_arm_left" />
+    <child link="elbow_ring_right_0" />
+    <origin rpy="0 0 0" xyz="0.04   0.026 -0.263" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14" upper="3.14" velocity="0.0" />
+  </joint>
+  <joint name="wrist_ring_right_0" type="revolute">
+    <parent link="lower_arm_left" />
+    <child link="wrist_ring_right_0" />
+    <origin rpy="0 0 0" xyz="0.0455 -0.017  -0.268" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14" upper="3.14" velocity="0.0" />
+  </joint>
+  <joint name="elbow_ring_right_1" type="revolute">
+    <parent link="upper_arm_left" />
+    <child link="elbow_ring_right_1" />
+    <origin rpy="0 0 0" xyz="0.04   0.026 -0.263" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14" upper="3.14" velocity="0.0" />
+  </joint>
+  <joint name="elbow_ring_right_2" type="revolute">
+    <parent link="upper_arm_left" />
+    <child link="elbow_ring_right_2" />
+    <origin rpy="0 0 0" xyz="0.04   0.026 -0.263" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14" upper="3.14" velocity="0.0" />
+  </joint>
+  <joint name="wrist_ring_right_1" type="revolute">
+    <parent link="lower_arm_left" />
+    <child link="wrist_ring_right_1" />
+    <origin rpy="0 0 0" xyz="0.0455 -0.017  -0.268" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14" upper="3.14" velocity="0.0" />
+  </joint>
+  <joint name="wrist_ring_right_2" type="revolute">
+    <parent link="lower_arm_left" />
+    <child link="wrist_ring_right_2" />
+    <origin rpy="0 0 0" xyz="0.0455 -0.017  -0.268" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14" upper="3.14" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_0_axis0" type="revolute">
+    <parent link="base" />
+    <child link="outer_sphere_wrist_0_link1" />
+    <origin rpy="0 0 0" xyz="0  0  1.3" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_0_axis1" type="revolute">
+    <parent link="outer_sphere_wrist_0_link1" />
+    <child link="outer_sphere_wrist_0_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_0_axis2" type="revolute">
+    <parent link="outer_sphere_wrist_0_link2" />
+    <child link="outer_sphere_wrist_0" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_1_axis0" type="revolute">
+    <parent link="base" />
+    <child link="outer_sphere_elbow_1_link1" />
+    <origin rpy="0 0 0" xyz="0  0  1.3" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_1_axis1" type="revolute">
+    <parent link="outer_sphere_elbow_1_link1" />
+    <child link="outer_sphere_elbow_1_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_1_axis2" type="revolute">
+    <parent link="outer_sphere_elbow_1_link2" />
+    <child link="outer_sphere_elbow_1" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_1_axis0" type="revolute">
+    <parent link="base" />
+    <child link="outer_sphere_wrist_1_link1" />
+    <origin rpy="0 0 0" xyz="0  0  1.3" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_1_axis1" type="revolute">
+    <parent link="outer_sphere_wrist_1_link1" />
+    <child link="outer_sphere_wrist_1_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_1_axis2" type="revolute">
+    <parent link="outer_sphere_wrist_1_link2" />
+    <child link="outer_sphere_wrist_1" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="spine_axis0" type="revolute">
+    <parent link="base" />
+    <child link="spine_link1" />
+    <origin rpy="0 0 0" xyz="-0.00477  0.0199   1.03001" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="spine_axis2" type="revolute">
+    <parent link="spine_link2" />
+    <child link="chest" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="spine_axis1" type="revolute">
+    <parent link="spine_link1" />
+    <child link="spine_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_0_axis0" type="revolute">
+    <parent link="base" />
+    <child link="outer_sphere_elbow_0_link1" />
+    <origin rpy="0 0 0" xyz="0  0  1.3" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_0_axis1" type="revolute">
+    <parent link="outer_sphere_elbow_0_link1" />
+    <child link="outer_sphere_elbow_0_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_0_axis2" type="revolute">
+    <parent link="outer_sphere_elbow_0_link2" />
+    <child link="outer_sphere_elbow_0" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="shoulder_left_axis0" type="revolute">
+    <parent link="chest" />
+    <child link="shoulder_left_link1" />
+    <origin rpy="0 0 0" xyz="0.18555 0.045   0.37" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="shoulder_left_axis2" type="revolute">
+    <parent link="shoulder_left_link2" />
+    <child link="upper_arm_left" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="shoulder_left_axis1" type="revolute">
+    <parent link="shoulder_left_link1" />
+    <child link="shoulder_left_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 -1  0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="elbow_left_axis0" type="revolute">
+    <parent link="upper_arm_left" />
+    <child link="elbow_left_link1" />
+    <origin rpy="0 0 0" xyz="0.04   0.026 -0.263" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="elbow_left_axis2" type="revolute">
+    <parent link="elbow_left_link2" />
+    <child link="lower_arm_left" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="ankle_right_axis1" type="revolute">
+    <parent link="elbow_left_link1" />
+    <child link="elbow_left_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 -1  0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="wrist_left_axis0" type="revolute">
+    <parent link="lower_arm_left" />
+    <child link="wrist_left_link1" />
+    <origin rpy="0 0 0" xyz="0.0455 -0.017  -0.268" />
+    <axis xyz="0  0 -1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="wrist_left_axis2" type="revolute">
+    <parent link="wrist_left_link2" />
+    <child link="hand_left" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="wrist_left_axis1" type="revolute">
+    <parent link="wrist_left_link1" />
+    <child link="wrist_left_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 -1  0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_2_axis0" type="revolute">
+    <parent link="base" />
+    <child link="outer_sphere_elbow_2_link1" />
+    <origin rpy="0 0 0" xyz="0  0  1.3" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_2_axis1" type="revolute">
+    <parent link="outer_sphere_elbow_2_link1" />
+    <child link="outer_sphere_elbow_2_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_elbow_2_axis2" type="revolute">
+    <parent link="outer_sphere_elbow_2_link2" />
+    <child link="outer_sphere_elbow_2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_2_axis0" type="revolute">
+    <parent link="base" />
+    <child link="outer_sphere_wrist_2_link1" />
+    <origin rpy="0 0 0" xyz="0  0  1.3" />
+    <axis xyz="1 0 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_2_axis1" type="revolute">
+    <parent link="outer_sphere_wrist_2_link1" />
+    <child link="outer_sphere_wrist_2_link2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <joint name="outer_sphere_wrist_2_axis2" type="revolute">
+    <parent link="outer_sphere_wrist_2_link2" />
+    <child link="outer_sphere_wrist_2" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="0.0" lower="-3.14159265359" upper="3.14159265359" velocity="0.0" />
+  </joint>
+  <link name="base">
+    <inertial>
+      <mass value="43.64700141171967" />
+      <origin rpy="0 0 0" xyz="-0.00503  0.01909  0.95609" />
+      <inertia ixx="40.22739294061493" ixy="0.004165649792828773" ixz="0.20810703493282054" iyy="40.239917327357354" iyz="-0.7876737397570546" izz="0.2990458093443695" />
+    </inertial>
+    <collision name="base_collision">
+      <origin rpy="0 0 0" xyz="-0.00503  0.01909  0.95609" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/base.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="base_visual">
+      <origin rpy="0 0 0" xyz="-0.00503  0.01909  0.95609" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/base.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_0">
+    <inertial>
+      <mass value="2.3426520957392554" />
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <inertia ixx="3.9719334046398482" ixy="4.28003278845927e-12" ixz="-3.4554067543971025" iyy="7.002972904031099" iyz="5.993162202593796e-09" izz="3.0434482450716525" />
+    </inertial>
+    <collision name="outer_sphere_elbow_0_collision">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_0_visual">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_1">
+    <inertial>
+      <mass value="2.3426520957392554" />
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <inertia ixx="3.9719334046398482" ixy="4.28003278845927e-12" ixz="-3.4554067543971025" iyy="7.002972904031099" iyz="5.993162202593796e-09" izz="3.0434482450716525" />
+    </inertial>
+    <collision name="outer_sphere_elbow_1_collision">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_1_visual">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_2">
+    <inertial>
+      <mass value="2.3426520957392554" />
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <inertia ixx="3.9719334046398482" ixy="4.28003278845927e-12" ixz="-3.4554067543971025" iyy="7.002972904031099" iyz="5.993162202593796e-09" izz="3.0434482450716525" />
+    </inertial>
+    <collision name="outer_sphere_elbow_2_collision">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_2_visual">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_0">
+    <inertial>
+      <mass value="2.3426520957392554" />
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <inertia ixx="3.9719334046398482" ixy="4.28003278845927e-12" ixz="-3.4554067543971025" iyy="7.002972904031099" iyz="5.993162202593796e-09" izz="3.0434482450716525" />
+    </inertial>
+    <collision name="outer_sphere_wrist_0_collision">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_0_visual">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_1">
+    <inertial>
+      <mass value="2.3426520957392554" />
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <inertia ixx="3.9719334046398482" ixy="4.28003278845927e-12" ixz="-3.4554067543971025" iyy="7.002972904031099" iyz="5.993162202593796e-09" izz="3.0434482450716525" />
+    </inertial>
+    <collision name="outer_sphere_wrist_1_collision">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_1_visual">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_2">
+    <inertial>
+      <mass value="2.3426520957392554" />
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <inertia ixx="3.9719334046398482" ixy="4.28003278845927e-12" ixz="-3.4554067543971025" iyy="7.002972904031099" iyz="5.993162202593796e-09" izz="3.0434482450716525" />
+    </inertial>
+    <collision name="outer_sphere_wrist_2_collision">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_2_visual">
+      <origin rpy="0 0 0" xyz="1.13461e+00 0.00000e+00 7.00000e-05" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="spine_link1">
+    <inertial>
+      <mass value="0.06979038134801682" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.07408264041470757" ixy="6.639991268247681e-06" ixz="0.00034354725883355017" iyy="0.0740565746756493" iyz="-0.0014310901182433885" izz="4.090100715841081e-05" />
+    </inertial>
+    <collision name="spine_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/spine_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="spine_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/spine_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="spine_link2">
+    <inertial>
+      <mass value="0.04678255760927329" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.04965723977283554" ixy="4.45098260042209e-06" ixz="0.00023028989261892542" iyy="0.049639767136884394" iyz="-0.0009593020469149423" izz="2.4871073791188037e-05" />
+    </inertial>
+    <collision name="spine_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/spine_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="spine_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/spine_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder_left_link1">
+    <inertial>
+      <mass value="0.06979038134801809" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.13709851852044228" ixy="-0.0008189201815306329" ixz="-0.017663537339254565" iyy="0.13908531398450608" iyz="-0.006342014993973148" izz="0.0025865020834621453" />
+    </inertial>
+    <collision name="shoulder_left_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/shoulder_left_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="shoulder_left_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/shoulder_left_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="shoulder_left_link2">
+    <inertial>
+      <mass value="0.04678255835713113" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.09189864888947079" ixy="-0.0005489464370633844" ixz="-0.011840391905101853" iyy="0.09323045669659188" iyz="-0.004251240369039402" izz="0.001731262823495427" />
+    </inertial>
+    <collision name="shoulder_left_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/shoulder_left_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="shoulder_left_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/shoulder_left_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow_left_link1">
+    <inertial>
+      <mass value="0.06979038134801813" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.09081425429323724" ixy="-0.0014007328524469087" ixz="-0.017519479803645124" iyy="0.0936393100553545" iyz="-0.007213815820121076" izz="0.003990233729513113" />
+    </inertial>
+    <collision name="elbow_left_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/elbow_left_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="elbow_left_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/elbow_left_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow_left_link2">
+    <inertial>
+      <mass value="0.04678255835713113" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06087293660071606" ixy="-0.0009389526915690102" ixz="-0.011743825874994982" iyy="0.06276665509745787" iyz="-0.004835634267414609" izz="0.00267222569517918" />
+    </inertial>
+    <collision name="elbow_left_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/elbow_left_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="elbow_left_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/elbow_left_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist_left_link1">
+    <inertial>
+      <mass value="0.06979038134801813" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.053098136238932704" ixy="-0.0013734843440707076" ixz="-0.01614960366575269" iyy="0.05766537051164586" iyz="-0.004482454233363436" izz="0.0053413251174182505" />
+    </inertial>
+    <collision name="wrist_left_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/wrist_left_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="wrist_left_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/wrist_left_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist_left_link2">
+    <inertial>
+      <mass value="0.04678255835713114" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.03559070630194089" ixy="-0.0009206872098703459" ixz="-0.010825557352525892" iyy="0.03865225862142774" iyz="-0.0030047217496892153" izz="0.003577902243718102" />
+    </inertial>
+    <collision name="wrist_left_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/wrist_left_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="wrist_left_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/wrist_left_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="chest">
+    <inertial>
+      <mass value="1.8912664692997008" />
+      <origin rpy="0 0 0" xyz="0.00929 0.00244 0.29799" />
+      <inertia ixx="3.4955944466766224" ixy="-0.0009738608206707028" ixz="-0.012617553767272353" iyy="3.4977368701708142" iyz="-0.05645988820816441" izz="0.005072780338014698" />
+    </inertial>
+    <collision name="chest_collision">
+      <origin rpy="0 0 0" xyz="0.00929 0.00244 0.29799" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/chest.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="chest_visual">
+      <origin rpy="0 0 0" xyz="0.00929 0.00244 0.29799" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/chest.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="upper_arm_left">
+    <inertial>
+      <mass value="0.11563830149074944" />
+      <origin rpy="0 0 0" xyz="0.03546  0.02226 -0.22543" />
+      <inertia ixx="0.1614295320703425" ixy="-0.0021907104988883584" ixz="-0.02926160829822963" iyy="0.16596168738254902" iyz="-0.011743914821209485" izz="0.006331747557803913" />
+    </inertial>
+    <collision name="upper_arm_left_collision">
+      <origin rpy="0 0 0" xyz="0.03546  0.02226 -0.22543" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/upper_arm_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="upper_arm_left_visual">
+      <origin rpy="0 0 0" xyz="0.03546  0.02226 -0.22543" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/upper_arm_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="lower_arm_left">
+    <inertial>
+      <mass value="0.11563830149074951" />
+      <origin rpy="0 0 0" xyz="0.04017 -0.01459 -0.22972" />
+      <inertia ixx="0.09690877691623682" ixy="-0.0022945620539641613" ixz="-0.02724637005449049" iyy="0.1041241157242805" iyz="-0.008071493904890386" izz="0.00859344128245684" />
+    </inertial>
+    <collision name="lower_arm_left_collision">
+      <origin rpy="0 0 0" xyz="0.04017 -0.01459 -0.22972" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/lower_arm_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="lower_arm_left_visual">
+      <origin rpy="0 0 0" xyz="0.04017 -0.01459 -0.22972" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/lower_arm_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="hand_left">
+    <inertial>
+      <mass value="0.016515273339096418" />
+      <origin rpy="0 0 0" xyz="0.01025 0      0" />
+      <inertia ixx="0.01256272177058364" ixy="-0.0003375402485974123" ixz="-0.003968857574575631" iyy="0.013735905138425972" iyz="-0.0010607292672196462" izz="0.0013538779291615627" />
+    </inertial>
+    <collision name="hand_left_collision">
+      <origin rpy="0 0 0" xyz="0.01025 0      0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/hand_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="hand_left_visual">
+      <origin rpy="0 0 0" xyz="0.01025 0      0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/hand_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow_ring_right_0">
+    <inertial>
+      <mass value="0.010912714781324565" />
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <inertia ixx="0.01419074690356705" ixy="-0.00021902442440232354" ixz="-0.00273700955071246" iyy="0.01463248439199843" iyz="-0.0011269902427482282" izz="0.0006566570598721176" />
+    </inertial>
+    <collision name="elbow_ring_right_0_collision">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/elbow_ring_right_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="elbow_ring_right_0_visual">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/elbow_ring_right_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow_ring_right_1">
+    <inertial>
+      <mass value="0.010912714781324566" />
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <inertia ixx="0.014190746903567055" ixy="-0.0002190244244023235" ixz="-0.002737009550712461" iyy="0.014632484391998435" iyz="-0.0011269902427482276" izz="0.0006566570598721181" />
+    </inertial>
+    <collision name="elbow_ring_right_1_collision">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/elbow_ring_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="elbow_ring_right_1_visual">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/elbow_ring_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="elbow_ring_right_2">
+    <inertial>
+      <mass value="0.010912714781324566" />
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <inertia ixx="0.014190746903567055" ixy="-0.0002190244244023235" ixz="-0.002737009550712461" iyy="0.014632484391998435" iyz="-0.0011269902427482276" izz="0.0006566570598721181" />
+    </inertial>
+    <collision name="elbow_ring_right_2_collision">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/elbow_ring_right_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="elbow_ring_right_2_visual">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/elbow_ring_right_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist_ring_right_0">
+    <inertial>
+      <mass value="0.010912714781324936" />
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <inertia ixx="0.008299146770577722" ixy="-0.00021476373411255599" ixz="-0.0025223134822274225" iyy="0.00901329854901675" iyz="-0.0007000886820672948" izz="0.00086791933806763" />
+    </inertial>
+    <collision name="wrist_ring_right_0_collision">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/wrist_ring_right_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="wrist_ring_right_0_visual">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/wrist_ring_right_0.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist_ring_right_1">
+    <inertial>
+      <mass value="0.01091271478132496" />
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <inertia ixx="0.00829914677057774" ixy="-0.00021476373411255658" ixz="-0.0025223134822274255" iyy="0.00901329854901677" iyz="-0.0007000886820672974" izz="0.00086791933806763" />
+    </inertial>
+    <collision name="wrist_ring_right_1_collision">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/wrist_ring_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="wrist_ring_right_1_visual">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/wrist_ring_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="wrist_ring_right_2">
+    <inertial>
+      <mass value="0.010912714781324974" />
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <inertia ixx="0.008299146770577751" ixy="-0.00021476373411255756" ixz="-0.00252231348222743" iyy="0.009013298549016781" iyz="-0.0007000886820673012" izz="0.0008679193380676319" />
+    </inertial>
+    <collision name="wrist_ring_right_2_collision">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/wrist_ring_right_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="wrist_ring_right_2_visual">
+      <origin rpy="0 0 0" xyz="0     0    -0.001" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/wrist_ring_right_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_0_link1">
+    <inertial>
+      <mass value="0.03806502884740436" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06433157741988556" ixy="1.9515639104739082e-22" ixz="0.0" iyy="0.06433157741988556" iyz="-5.662137425588299e-19" izz="1.6786677721705307e-06" />
+    </inertial>
+    <collision name="outer_sphere_elbow_0_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_0_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_0_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_0_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_0_link2">
+    <inertial>
+      <mass value="0.0029963725331776064" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.005063893851687673" ixy="8.85142653617169e-24" ixz="-3.550102919969143e-21" iyy="0.005063893851687673" iyz="5.169475958410885e-20" izz="2.4270617518738147e-08" />
+    </inertial>
+    <collision name="outer_sphere_elbow_0_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_0_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_0_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_0_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_1_link1">
+    <inertial>
+      <mass value="0.03806502884740436" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06433157741988556" ixy="1.9515639104739082e-22" ixz="0.0" iyy="0.06433157741988556" iyz="-5.662137425588299e-19" izz="1.6786677721705307e-06" />
+    </inertial>
+    <collision name="outer_sphere_elbow_1_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_1_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_1_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_1_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_1_link2">
+    <inertial>
+      <mass value="0.0029963725331776064" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.005063893851687673" ixy="8.85142653617169e-24" ixz="-3.550102919969143e-21" iyy="0.005063893851687673" iyz="5.169475958410885e-20" izz="2.4270617518738147e-08" />
+    </inertial>
+    <collision name="outer_sphere_elbow_1_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_1_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_1_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_1_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_2_link1">
+    <inertial>
+      <mass value="0.03806502884740436" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06433157741988556" ixy="1.9515639104739082e-22" ixz="0.0" iyy="0.06433157741988556" iyz="-5.662137425588299e-19" izz="1.6786677721705307e-06" />
+    </inertial>
+    <collision name="outer_sphere_elbow_2_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_2_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_2_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_2_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_elbow_2_link2">
+    <inertial>
+      <mass value="0.0029963725331776064" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.005063893851687673" ixy="8.85142653617169e-24" ixz="-3.550102919969143e-21" iyy="0.005063893851687673" iyz="5.169475958410885e-20" izz="2.4270617518738147e-08" />
+    </inertial>
+    <collision name="outer_sphere_elbow_2_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_elbow_2_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_elbow_2_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_elbow_2_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_0_link1">
+    <inertial>
+      <mass value="0.03806502884740436" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06433157741988556" ixy="1.9515639104739082e-22" ixz="0.0" iyy="0.06433157741988556" iyz="-5.662137425588299e-19" izz="1.6786677721705307e-06" />
+    </inertial>
+    <collision name="outer_sphere_wrist_0_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_0_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_0_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_0_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_0_link2">
+    <inertial>
+      <mass value="0.0029963725331776064" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.005063893851687673" ixy="8.85142653617169e-24" ixz="-3.550102919969143e-21" iyy="0.005063893851687673" iyz="5.169475958410885e-20" izz="2.4270617518738147e-08" />
+    </inertial>
+    <collision name="outer_sphere_wrist_0_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_0_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_0_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_0_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_1_link1">
+    <inertial>
+      <mass value="0.03806502884740436" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06433157741988556" ixy="1.9515639104739082e-22" ixz="0.0" iyy="0.06433157741988556" iyz="-5.662137425588299e-19" izz="1.6786677721705307e-06" />
+    </inertial>
+    <collision name="outer_sphere_wrist_1_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_1_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_1_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_1_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_1_link2">
+    <inertial>
+      <mass value="0.0029963725331776064" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.005063893851687673" ixy="8.85142653617169e-24" ixz="-3.550102919969143e-21" iyy="0.005063893851687673" iyz="5.169475958410885e-20" izz="2.4270617518738147e-08" />
+    </inertial>
+    <collision name="outer_sphere_wrist_1_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_1_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_1_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_1_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_2_link1">
+    <inertial>
+      <mass value="0.03806502884740436" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.06433157741988556" ixy="1.9515639104739082e-22" ixz="0.0" iyy="0.06433157741988556" iyz="-5.662137425588299e-19" izz="1.6786677721705307e-06" />
+    </inertial>
+    <collision name="outer_sphere_wrist_2_link1_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_2_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_2_link1_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_2_link1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="outer_sphere_wrist_2_link2">
+    <inertial>
+      <mass value="0.0029963725331776064" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.005063893851687673" ixy="8.85142653617169e-24" ixz="-3.550102919969143e-21" iyy="0.005063893851687673" iyz="5.169475958410885e-20" izz="2.4270617518738147e-08" />
+    </inertial>
+    <collision name="outer_sphere_wrist_2_link2_collision">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/collisions/outer_sphere_wrist_2_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual name="outer_sphere_wrist_2_link2_visual">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://PATHTOMESHES/meshes/visuals/outer_sphere_wrist_2_link2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,29 @@
+joint_names: [
+  'elbow_ring_right_0','elbow_ring_right_1','elbow_ring_right_2',
+  'wrist_ring_right_0','wrist_ring_right_1','wrist_ring_right_2',
+  'outer_sphere_wrist_0_axis0','outer_sphere_wrist_0_axis1','outer_sphere_wrist_0_axis2',
+  'outer_sphere_wrist_1_axis0','outer_sphere_wrist_1_axis1','outer_sphere_wrist_1_axis2',
+  'outer_sphere_wrist_2_axis0','outer_sphere_wrist_2_axis1','outer_sphere_wrist_2_axis2',
+  'outer_sphere_elbow_0_axis0','outer_sphere_elbow_0_axis1','outer_sphere_elbow_0_axis2',
+  'outer_sphere_elbow_1_axis0','outer_sphere_elbow_1_axis1','outer_sphere_elbow_1_axis2',
+  'outer_sphere_elbow_2_axis0','outer_sphere_elbow_2_axis1','outer_sphere_elbow_2_axis2',
+  'spine_axis0','spine_axis1','spine_axis2',
+  'shoulder_left_axis0','shoulder_left_axis1','shoulder_left_axis2',
+  'elbow_left_axis0','elbow_left_axis2',
+  'wrist_left_axis0','wrist_left_axis1','wrist_left_axis2'
+]
+endeffectors: ['hand_left']
+hand_left:
+  base_link: 'base'
+  joints: ['elbow_ring_right_0','elbow_ring_right_1','elbow_ring_right_2',
+           'wrist_ring_right_0','wrist_ring_right_1','wrist_ring_right_2',
+           'outer_sphere_wrist_0_axis0','outer_sphere_wrist_0_axis1','outer_sphere_wrist_0_axis2',
+           'outer_sphere_wrist_1_axis0','outer_sphere_wrist_1_axis1','outer_sphere_wrist_1_axis2',
+           'outer_sphere_wrist_2_axis0','outer_sphere_wrist_2_axis1','outer_sphere_wrist_2_axis2',
+           'outer_sphere_elbow_0_axis0','outer_sphere_elbow_0_axis1','outer_sphere_elbow_0_axis2',
+           'outer_sphere_elbow_1_axis0','outer_sphere_elbow_1_axis1','outer_sphere_elbow_1_axis2',
+           'outer_sphere_elbow_2_axis0','outer_sphere_elbow_2_axis1','outer_sphere_elbow_2_axis2',
+    'spine_axis0','spine_axis1','spine_axis2',
+           'shoulder_left_axis0','shoulder_left_axis1','shoulder_left_axis2',
+           'elbow_left_axis0','elbow_left_axis2',
+           'wrist_left_axis0','wrist_left_axis1','wrist_left_axis2']

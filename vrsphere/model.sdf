@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
 <sdf version="1.6">
 	<model name="vrsphere">
 		<link name="base">
+			<kinematic>true</kinematic>
 			<self_collide>false</self_collide>
 			<pose frame="">-0.005029683104600092 0.019093911555932378 0.956094180866133 0.0 -0.0 0.0</pose>
 			<inertial>
@@ -19,7 +19,7 @@
 			<collision name="base_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/base.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/base.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -27,7 +27,7 @@
 			<visual name="base_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/base.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/base.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -51,7 +51,7 @@
 			<collision name="outer_sphere_elbow_0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -59,7 +59,7 @@
 			<visual name="outer_sphere_elbow_0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -83,7 +83,7 @@
 			<collision name="outer_sphere_elbow_1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -91,7 +91,7 @@
 			<visual name="outer_sphere_elbow_1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -115,7 +115,7 @@
 			<collision name="outer_sphere_elbow_2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -123,7 +123,7 @@
 			<visual name="outer_sphere_elbow_2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -147,7 +147,7 @@
 			<collision name="outer_sphere_wrist_0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -155,7 +155,7 @@
 			<visual name="outer_sphere_wrist_0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -179,7 +179,7 @@
 			<collision name="outer_sphere_wrist_1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -187,7 +187,7 @@
 			<visual name="outer_sphere_wrist_1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -211,7 +211,7 @@
 			<collision name="outer_sphere_wrist_2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -219,7 +219,7 @@
 			<visual name="outer_sphere_wrist_2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -243,7 +243,7 @@
 			<collision name="spine_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/spine_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/spine_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -251,7 +251,7 @@
 			<visual name="spine_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/spine_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/spine_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -275,7 +275,7 @@
 			<collision name="spine_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/spine_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/spine_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -283,7 +283,7 @@
 			<visual name="spine_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/spine_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/spine_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -307,7 +307,7 @@
 			<collision name="shoulder_left_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/shoulder_left_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/shoulder_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -315,7 +315,7 @@
 			<visual name="shoulder_left_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/shoulder_left_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/shoulder_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -339,7 +339,7 @@
 			<collision name="shoulder_left_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/shoulder_left_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/shoulder_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -347,7 +347,7 @@
 			<visual name="shoulder_left_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/shoulder_left_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/shoulder_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -371,7 +371,7 @@
 			<collision name="elbow_left_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_left_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/elbow_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -379,7 +379,7 @@
 			<visual name="elbow_left_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_left_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/elbow_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -403,7 +403,7 @@
 			<collision name="elbow_left_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_left_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/elbow_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -411,7 +411,7 @@
 			<visual name="elbow_left_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_left_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/elbow_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -435,7 +435,7 @@
 			<collision name="wrist_left_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_left_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/wrist_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -443,7 +443,7 @@
 			<visual name="wrist_left_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_left_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/wrist_left_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -467,7 +467,7 @@
 			<collision name="wrist_left_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_left_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/wrist_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -475,7 +475,7 @@
 			<visual name="wrist_left_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_left_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/wrist_left_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -499,7 +499,7 @@
 			<collision name="chest_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/chest.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/chest.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -507,7 +507,7 @@
 			<visual name="chest_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/chest.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/chest.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -531,7 +531,7 @@
 			<collision name="upper_arm_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/upper_arm_left.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/upper_arm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -539,7 +539,7 @@
 			<visual name="upper_arm_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/upper_arm_left.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/upper_arm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -563,7 +563,7 @@
 			<collision name="lower_arm_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/lower_arm_left.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/lower_arm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -571,7 +571,7 @@
 			<visual name="lower_arm_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/lower_arm_left.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/lower_arm_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -595,7 +595,7 @@
 			<collision name="hand_left_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/hand_left.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/hand_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -603,7 +603,7 @@
 			<visual name="hand_left_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/hand_left.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/hand_left.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -627,7 +627,7 @@
 			<collision name="elbow_ring_right_0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_0.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/elbow_ring_right_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -635,7 +635,7 @@
 			<visual name="elbow_ring_right_0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_0.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/elbow_ring_right_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -659,7 +659,7 @@
 			<collision name="elbow_ring_right_1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/elbow_ring_right_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -667,7 +667,7 @@
 			<visual name="elbow_ring_right_1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/elbow_ring_right_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -691,7 +691,7 @@
 			<collision name="elbow_ring_right_2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/elbow_ring_right_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -699,7 +699,7 @@
 			<visual name="elbow_ring_right_2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/elbow_ring_right_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -723,7 +723,7 @@
 			<collision name="wrist_ring_right_0_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_0.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/wrist_ring_right_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -731,7 +731,7 @@
 			<visual name="wrist_ring_right_0_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_0.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/wrist_ring_right_0.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -755,7 +755,7 @@
 			<collision name="wrist_ring_right_1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/wrist_ring_right_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -763,7 +763,7 @@
 			<visual name="wrist_ring_right_1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/wrist_ring_right_1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -787,7 +787,7 @@
 			<collision name="wrist_ring_right_2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/wrist_ring_right_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -795,7 +795,7 @@
 			<visual name="wrist_ring_right_2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/wrist_ring_right_2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -819,7 +819,7 @@
 			<collision name="outer_sphere_elbow_0_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_0_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -827,7 +827,7 @@
 			<visual name="outer_sphere_elbow_0_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_0_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -851,7 +851,7 @@
 			<collision name="outer_sphere_elbow_0_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_0_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -859,7 +859,7 @@
 			<visual name="outer_sphere_elbow_0_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_0_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -883,7 +883,7 @@
 			<collision name="outer_sphere_elbow_1_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_1_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -891,7 +891,7 @@
 			<visual name="outer_sphere_elbow_1_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_1_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -915,7 +915,7 @@
 			<collision name="outer_sphere_elbow_1_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_1_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -923,7 +923,7 @@
 			<visual name="outer_sphere_elbow_1_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_1_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -947,7 +947,7 @@
 			<collision name="outer_sphere_elbow_2_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_2_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -955,7 +955,7 @@
 			<visual name="outer_sphere_elbow_2_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_2_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -979,7 +979,7 @@
 			<collision name="outer_sphere_elbow_2_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_elbow_2_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -987,7 +987,7 @@
 			<visual name="outer_sphere_elbow_2_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_elbow_2_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1011,7 +1011,7 @@
 			<collision name="outer_sphere_wrist_0_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_0_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1019,7 +1019,7 @@
 			<visual name="outer_sphere_wrist_0_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_0_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1043,7 +1043,7 @@
 			<collision name="outer_sphere_wrist_0_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_0_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1051,7 +1051,7 @@
 			<visual name="outer_sphere_wrist_0_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_0_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1075,7 +1075,7 @@
 			<collision name="outer_sphere_wrist_1_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_1_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1083,7 +1083,7 @@
 			<visual name="outer_sphere_wrist_1_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_1_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1107,7 +1107,7 @@
 			<collision name="outer_sphere_wrist_1_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_1_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1115,7 +1115,7 @@
 			<visual name="outer_sphere_wrist_1_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_1_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1139,7 +1139,7 @@
 			<collision name="outer_sphere_wrist_2_link1_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link1.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_2_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1147,7 +1147,7 @@
 			<visual name="outer_sphere_wrist_2_link1_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link1.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_2_link1.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1171,7 +1171,7 @@
 			<collision name="outer_sphere_wrist_2_link2_collision">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link2.stl</uri>
+						<uri>model://vrsphere/meshes/collisions/outer_sphere_wrist_2_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1179,7 +1179,7 @@
 			<visual name="outer_sphere_wrist_2_link2_visual">
 				<geometry>
 					<mesh>
-						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link2.stl</uri>
+						<uri>model://vrsphere/meshes/visuals/outer_sphere_wrist_2_link2.stl</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -1653,6 +1653,6 @@
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
 		</joint>
-		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin"/>
+		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin" />
 	</model>
 </sdf>
