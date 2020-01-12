@@ -1,0 +1,255 @@
+Body: base
+COM: base -0.5029683104600091 1.9093911555932377 95.60941808661329
+exporting stl of base
+Body: outer_sphere_elbow_0
+COM: outer_sphere_elbow_0 113.4613714288738 -1.9380895435737628e-07 130.00723036475515
+exporting stl of outer_sphere_elbow_0
+Body: outer_sphere_elbow_1
+COM: outer_sphere_elbow_1 113.4613714288738 -1.9380895435737628e-07 130.00723036475515
+exporting stl of outer_sphere_elbow_1
+Body: outer_sphere_elbow_2
+COM: outer_sphere_elbow_2 113.4613714288738 -1.9380895435737628e-07 130.00723036475515
+exporting stl of outer_sphere_elbow_2
+Body: outer_sphere_wrist_0
+COM: outer_sphere_wrist_0 113.4613714288738 -1.9380895435737628e-07 130.00723036475515
+exporting stl of outer_sphere_wrist_0
+Body: outer_sphere_wrist_1
+COM: outer_sphere_wrist_1 113.4613714288738 -1.9380895435737628e-07 130.00723036475515
+exporting stl of outer_sphere_wrist_1
+Body: outer_sphere_wrist_2
+COM: outer_sphere_wrist_2 113.4613714288738 -1.9380895435737628e-07 130.00723036475515
+exporting stl of outer_sphere_wrist_2
+Body: spine_link1
+COM: spine_link1 -0.4779095629306764 1.9907935090102844 103.00189040829886
+exporting stl of spine_link1
+Body: spine_link2
+COM: spine_link2 -0.4779095629305909 1.9907935027619479 103.00189039921803
+exporting stl of spine_link2
+Body: shoulder_left_link1
+COM: shoulder_left_link1 18.077909562930547 6.490793509010384 140.00189040829912
+exporting stl of shoulder_left_link1
+Body: shoulder_left_link2
+COM: shoulder_left_link2 18.077909562930632 6.490793509010371 140.001890408299
+exporting stl of shoulder_left_link2
+Body: elbow_left_link1
+COM: elbow_left_link1 22.077909562923647 9.09079350901069 113.701890408298
+exporting stl of elbow_left_link1
+Body: elbow_left_link2
+COM: elbow_left_link2 22.077909562924013 9.090793509010684 113.70189040829806
+exporting stl of elbow_left_link2
+Body: wrist_left_link1
+COM: wrist_left_link1 26.627909562923616 7.3907935090110275 86.90189040829803
+exporting stl of wrist_left_link1
+Body: wrist_left_link2
+COM: wrist_left_link2 26.627909562923858 7.390793509011011 86.90189040829831
+exporting stl of wrist_left_link2
+Body: chest
+COM: chest 0.45212729570100235 2.235164750395904 132.80148320316044
+exporting stl of chest
+Body: upper_arm_left
+COM: upper_arm_left 21.623978254644793 8.717470687284033 117.4580238551711
+exporting stl of upper_arm_left
+Body: lower_arm_left
+COM: lower_arm_left 26.095428152989925 7.631589663805255 90.72943303848886
+exporting stl of lower_arm_left
+Body: hand_left
+COM: hand_left 27.65351914650053 7.390765964322609 86.90191311766087
+exporting stl of hand_left
+Body: elbow_ring_right_0
+COM: elbow_ring_right_0 22.077909562921654 9.090793509000942 113.60189040829775
+exporting stl of elbow_ring_right_0
+Body: elbow_ring_right_1
+COM: elbow_ring_right_1 22.077909562921658 9.090793509000967 113.60189040829789
+exporting stl of elbow_ring_right_1
+Body: elbow_ring_right_2
+COM: elbow_ring_right_2 22.077909562921658 9.090793509000967 113.60189040829789
+exporting stl of elbow_ring_right_2
+Body: wrist_ring_right_0
+COM: wrist_ring_right_0 26.62790956292153 7.390793509001293 86.80189040829814
+exporting stl of wrist_ring_right_0
+Body: wrist_ring_right_1
+COM: wrist_ring_right_1 26.627909562921573 7.3907935090013215 86.80189040829832
+exporting stl of wrist_ring_right_1
+Body: wrist_ring_right_2
+COM: wrist_ring_right_2 26.627909562921623 7.390793509001388 86.8018904082984
+exporting stl of wrist_ring_right_2
+Body: outer_sphere_elbow_0_link1
+COM: outer_sphere_elbow_0_link1 -9.11452600196883e-17 9.969012814653407e-16 130.0
+exporting stl of outer_sphere_elbow_0_link1
+Body: outer_sphere_elbow_0_link2
+COM: outer_sphere_elbow_0_link2 5.453625997022458e-17 -1.275479806230372e-15 130.0
+exporting stl of outer_sphere_elbow_0_link2
+Body: outer_sphere_elbow_1_link1
+COM: outer_sphere_elbow_1_link1 -9.11452600196883e-17 9.969012814653407e-16 130.0
+exporting stl of outer_sphere_elbow_1_link1
+Body: outer_sphere_elbow_1_link2
+COM: outer_sphere_elbow_1_link2 5.453625997022458e-17 -1.275479806230372e-15 130.0
+exporting stl of outer_sphere_elbow_1_link2
+Body: outer_sphere_elbow_2_link1
+COM: outer_sphere_elbow_2_link1 -9.11452600196883e-17 9.969012814653407e-16 130.0
+exporting stl of outer_sphere_elbow_2_link1
+Body: outer_sphere_elbow_2_link2
+COM: outer_sphere_elbow_2_link2 5.453625997022458e-17 -1.275479806230372e-15 130.0
+exporting stl of outer_sphere_elbow_2_link2
+Body: outer_sphere_wrist_0_link1
+COM: outer_sphere_wrist_0_link1 -9.11452600196883e-17 9.969012814653407e-16 130.0
+exporting stl of outer_sphere_wrist_0_link1
+Body: outer_sphere_wrist_0_link2
+COM: outer_sphere_wrist_0_link2 5.453625997022458e-17 -1.275479806230372e-15 130.0
+exporting stl of outer_sphere_wrist_0_link2
+Body: outer_sphere_wrist_1_link1
+COM: outer_sphere_wrist_1_link1 -9.11452600196883e-17 9.969012814653407e-16 130.0
+exporting stl of outer_sphere_wrist_1_link1
+Body: outer_sphere_wrist_1_link2
+COM: outer_sphere_wrist_1_link2 5.453625997022458e-17 -1.275479806230372e-15 130.0
+exporting stl of outer_sphere_wrist_1_link2
+Body: outer_sphere_wrist_2_link1
+COM: outer_sphere_wrist_2_link1 -9.11452600196883e-17 9.969012814653407e-16 130.0
+exporting stl of outer_sphere_wrist_2_link1
+Body: outer_sphere_wrist_2_link2
+COM: outer_sphere_wrist_2_link2 5.453625997022458e-17 -1.275479806230372e-15 130.0
+exporting stl of outer_sphere_wrist_2_link2
+Joint: EXPORT_elbow_ring_right_0
+	parent: upper_arm_left
+	child: elbow_ring_right_0
+	pos: 2.142286348316702e-12	9.725553695716371e-12	0.10000000000034959
+Joint: EXPORT_wrist_ring_right_0
+	parent: lower_arm_left
+	child: wrist_ring_right_0
+	pos: 2.369660023759934e-12	9.693579272607167e-12	0.1000000000003638
+Joint: EXPORT_elbow_ring_right_1
+	parent: upper_arm_left
+	child: elbow_ring_right_1
+	pos: 2.1387336346379016e-12	9.700684699964768e-12	0.10000000000020748
+Joint: EXPORT_elbow_ring_right_2
+	parent: upper_arm_left
+	child: elbow_ring_right_2
+	pos: 2.1387336346379016e-12	9.700684699964768e-12	0.10000000000020748
+Joint: EXPORT_wrist_ring_right_1
+	parent: lower_arm_left
+	child: wrist_ring_right_1
+	pos: 2.327027459614328e-12	9.665157563176763e-12	0.10000000000017906
+Joint: EXPORT_wrist_ring_right_2
+	parent: lower_arm_left
+	child: wrist_ring_right_2
+	pos: 2.277289468111121e-12	9.598544181699253e-12	0.10000000000009379
+Joint: EXPORT_outer_sphere_wrist_0_axis0
+	parent: base
+	child: outer_sphere_wrist_0_link1
+	pos: 9.11452600196883e-17	-9.969012814653407e-16	0.0
+Joint: EXPORT_outer_sphere_wrist_0_axis1
+	parent: outer_sphere_wrist_0_link1
+	child: outer_sphere_wrist_0_link2
+	pos: -5.453625997022458e-17	1.275479806230372e-15	0.0
+Joint: EXPORT_outer_sphere_wrist_0_axis2
+	parent: outer_sphere_wrist_0_link2
+	child: outer_sphere_wrist_0
+	pos: -113.4613714288738	1.9380895435737628e-07	-0.007230364755145047
+Joint: EXPORT_outer_sphere_elbow_1_axis0
+	parent: base
+	child: outer_sphere_elbow_1_link1
+	pos: 9.11452600196883e-17	-9.969012814653407e-16	0.0
+Joint: EXPORT_outer_sphere_elbow_1_axis1
+	parent: outer_sphere_elbow_1_link1
+	child: outer_sphere_elbow_1_link2
+	pos: -5.453625997022458e-17	1.275479806230372e-15	0.0
+Joint: EXPORT_outer_sphere_elbow_1_axis2
+	parent: outer_sphere_elbow_1_link2
+	child: outer_sphere_elbow_1
+	pos: -113.4613714288738	1.9380895435737628e-07	-0.007230364755145047
+Joint: EXPORT_outer_sphere_wrist_1_axis0
+	parent: base
+	child: outer_sphere_wrist_1_link1
+	pos: 9.11452600196883e-17	-9.969012814653407e-16	0.0
+Joint: EXPORT_outer_sphere_wrist_1_axis1
+	parent: outer_sphere_wrist_1_link1
+	child: outer_sphere_wrist_1_link2
+	pos: -5.453625997022458e-17	1.275479806230372e-15	0.0
+Joint: EXPORT_outer_sphere_wrist_1_axis2
+	parent: outer_sphere_wrist_1_link2
+	child: outer_sphere_wrist_1
+	pos: -113.4613714288738	1.9380895435737628e-07	-0.007230364755145047
+Joint: EXPORT_spine_axis0
+	parent: base
+	child: spine_link1
+	pos: -3.347322419244847e-14	-3.3306690738754696e-15	8.526512829121202e-14
+Joint: EXPORT_spine_axis2
+	parent: spine_link2
+	child: chest
+	pos: -0.9300368586315644	-0.24437124138561583	-29.799592794861496
+Joint: EXPORT_spine_axis1
+	parent: spine_link1
+	child: spine_link2
+	pos: -8.953948693601887e-14	6.2483396234824795e-09	9.080793006432941e-09
+Joint: EXPORT_outer_sphere_elbow_0_axis0
+	parent: base
+	child: outer_sphere_elbow_0_link1
+	pos: 9.11452600196883e-17	-9.969012814653407e-16	0.0
+Joint: EXPORT_outer_sphere_elbow_0_axis1
+	parent: outer_sphere_elbow_0_link1
+	child: outer_sphere_elbow_0_link2
+	pos: -5.453625997022458e-17	1.275479806230372e-15	0.0
+Joint: EXPORT_outer_sphere_elbow_0_axis2
+	parent: outer_sphere_elbow_0_link2
+	child: outer_sphere_elbow_0
+	pos: -113.4613714288738	1.9380895435737628e-07	-0.007230364755145047
+Joint: EXPORT_shoulder_left_axis0
+	parent: chest
+	child: shoulder_left_link1
+	pos: 3.730349362740526e-13	-2.1316282072803006e-14	1.1368683772161603e-13
+Joint: EXPORT_shoulder_left_axis2
+	parent: shoulder_left_link2
+	child: upper_arm_left
+	pos: -3.5460686917141935	-2.2266771782736665	22.5438665531279
+Joint: EXPORT_shoulder_left_axis1
+	parent: shoulder_left_link1
+	child: shoulder_left_link2
+	pos: -8.881784197001252e-14	-6.217248937900877e-15	2.842170943040401e-14
+Joint: EXPORT_elbow_left_axis0
+	parent: upper_arm_left
+	child: elbow_left_link1
+	pos: 1.4921397450962104e-13	-2.1316282072803006e-14	9.947598300641403e-14
+Joint: EXPORT_elbow_left_axis2
+	parent: elbow_left_link2
+	child: lower_arm_left
+	pos: -4.017518590065869	1.459203845205395	22.972457369809106
+Joint: EXPORT_ankle_right_axis1
+	parent: elbow_left_link1
+	child: elbow_left_link2
+	pos: -5.151434834260726e-13	-1.2434497875801753e-14	-1.5631940186722204e-13
+Joint: EXPORT_wrist_left_axis0
+	parent: lower_arm_left
+	child: wrist_left_link1
+	pos: 2.8421709430404007e-13	-4.085620730620576e-14	4.689582056016661e-13
+Joint: EXPORT_wrist_left_axis2
+	parent: wrist_left_link2
+	child: hand_left
+	pos: -1.0256095835767205	2.7544688370184645e-05	-2.2709362653472454e-05
+Joint: EXPORT_wrist_left_axis1
+	parent: wrist_left_link1
+	child: wrist_left_link2
+	pos: -3.765876499528531e-13	-6.217248937900877e-15	-2.984279490192421e-13
+Joint: EXPORT_outer_sphere_elbow_2_axis0
+	parent: base
+	child: outer_sphere_elbow_2_link1
+	pos: 9.11452600196883e-17	-9.969012814653407e-16	0.0
+Joint: EXPORT_outer_sphere_elbow_2_axis1
+	parent: outer_sphere_elbow_2_link1
+	child: outer_sphere_elbow_2_link2
+	pos: -5.453625997022458e-17	1.275479806230372e-15	0.0
+Joint: EXPORT_outer_sphere_elbow_2_axis2
+	parent: outer_sphere_elbow_2_link2
+	child: outer_sphere_elbow_2
+	pos: -113.4613714288738	1.9380895435737628e-07	-0.007230364755145047
+Joint: EXPORT_outer_sphere_wrist_2_axis0
+	parent: base
+	child: outer_sphere_wrist_2_link1
+	pos: 9.11452600196883e-17	-9.969012814653407e-16	0.0
+Joint: EXPORT_outer_sphere_wrist_2_axis1
+	parent: outer_sphere_wrist_2_link1
+	child: outer_sphere_wrist_2_link2
+	pos: -5.453625997022458e-17	1.275479806230372e-15	0.0
+Joint: EXPORT_outer_sphere_wrist_2_axis2
+	parent: outer_sphere_wrist_2_link2
+	child: outer_sphere_wrist_2
+	pos: -113.4613714288738	1.9380895435737628e-07	-0.007230364755145047

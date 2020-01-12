@@ -1,0 +1,1658 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="vrsphere">
+		<link name="base">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.005029683104600092 0.019093911555932378 0.956094180866133 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>43.64700141171967</mass>
+				<inertia>
+					<ixx>40.22739294061493</ixx>
+					<ixy>0.004165649792828773</ixy>
+					<ixz>0.20810703493282054</ixz>
+					<iyy>40.239917327357354</iyy>
+					<iyz>-0.7876737397570546</iyz>
+					<izz>0.2990458093443695</izz>
+				</inertia>
+			</inertial>
+			<collision name="base_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="base_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_0">
+			<self_collide>false</self_collide>
+			<pose frame="">1.134613714288738 -1.938089543573763e-09 1.3000723036475514 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.3426520957392554</mass>
+				<inertia>
+					<ixx>3.9719334046398482</ixx>
+					<ixy>4.28003278845927e-12</ixy>
+					<ixz>-3.4554067543971025</ixz>
+					<iyy>7.002972904031099</iyy>
+					<iyz>5.993162202593796e-09</iyz>
+					<izz>3.0434482450716525</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_1">
+			<self_collide>false</self_collide>
+			<pose frame="">1.134613714288738 -1.938089543573763e-09 1.3000723036475514 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.3426520957392554</mass>
+				<inertia>
+					<ixx>3.9719334046398482</ixx>
+					<ixy>4.28003278845927e-12</ixy>
+					<ixz>-3.4554067543971025</ixz>
+					<iyy>7.002972904031099</iyy>
+					<iyz>5.993162202593796e-09</iyz>
+					<izz>3.0434482450716525</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_2">
+			<self_collide>false</self_collide>
+			<pose frame="">1.134613714288738 -1.938089543573763e-09 1.3000723036475514 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.3426520957392554</mass>
+				<inertia>
+					<ixx>3.9719334046398482</ixx>
+					<ixy>4.28003278845927e-12</ixy>
+					<ixz>-3.4554067543971025</ixz>
+					<iyy>7.002972904031099</iyy>
+					<iyz>5.993162202593796e-09</iyz>
+					<izz>3.0434482450716525</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_0">
+			<self_collide>false</self_collide>
+			<pose frame="">1.134613714288738 -1.938089543573763e-09 1.3000723036475514 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.3426520957392554</mass>
+				<inertia>
+					<ixx>3.9719334046398482</ixx>
+					<ixy>4.28003278845927e-12</ixy>
+					<ixz>-3.4554067543971025</ixz>
+					<iyy>7.002972904031099</iyy>
+					<iyz>5.993162202593796e-09</iyz>
+					<izz>3.0434482450716525</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_1">
+			<self_collide>false</self_collide>
+			<pose frame="">1.134613714288738 -1.938089543573763e-09 1.3000723036475514 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.3426520957392554</mass>
+				<inertia>
+					<ixx>3.9719334046398482</ixx>
+					<ixy>4.28003278845927e-12</ixy>
+					<ixz>-3.4554067543971025</ixz>
+					<iyy>7.002972904031099</iyy>
+					<iyz>5.993162202593796e-09</iyz>
+					<izz>3.0434482450716525</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_2">
+			<self_collide>false</self_collide>
+			<pose frame="">1.134613714288738 -1.938089543573763e-09 1.3000723036475514 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.3426520957392554</mass>
+				<inertia>
+					<ixx>3.9719334046398482</ixx>
+					<ixy>4.28003278845927e-12</ixy>
+					<ixz>-3.4554067543971025</ixz>
+					<iyy>7.002972904031099</iyy>
+					<iyz>5.993162202593796e-09</iyz>
+					<izz>3.0434482450716525</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="spine_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0047790956293067635 0.019907935090102843 1.0300189040829886 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06979038134801682</mass>
+				<inertia>
+					<ixx>0.07408264041470757</ixx>
+					<ixy>6.639991268247681e-06</ixy>
+					<ixz>0.00034354725883355017</ixz>
+					<iyy>0.0740565746756493</iyy>
+					<iyz>-0.0014310901182433885</iyz>
+					<izz>4.090100715841081e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="spine_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/spine_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="spine_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/spine_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="spine_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.004779095629305909 0.019907935027619478 1.0300189039921803 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.04678255760927329</mass>
+				<inertia>
+					<ixx>0.04965723977283554</ixx>
+					<ixy>4.45098260042209e-06</ixy>
+					<ixz>0.00023028989261892542</ixz>
+					<iyy>0.049639767136884394</iyy>
+					<iyz>-0.0009593020469149423</iyz>
+					<izz>2.4871073791188037e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="spine_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/spine_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="spine_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/spine_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shoulder_left_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.18077909562930547 0.06490793509010384 1.4000189040829911 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06979038134801809</mass>
+				<inertia>
+					<ixx>0.13709851852044228</ixx>
+					<ixy>-0.0008189201815306329</ixy>
+					<ixz>-0.017663537339254565</ixz>
+					<iyy>0.13908531398450608</iyy>
+					<iyz>-0.006342014993973148</iyz>
+					<izz>0.0025865020834621453</izz>
+				</inertia>
+			</inertial>
+			<collision name="shoulder_left_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/shoulder_left_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shoulder_left_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/shoulder_left_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="shoulder_left_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.18077909562930633 0.0649079350901037 1.40001890408299 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.04678255835713113</mass>
+				<inertia>
+					<ixx>0.09189864888947079</ixx>
+					<ixy>-0.0005489464370633844</ixy>
+					<ixz>-0.011840391905101853</ixz>
+					<iyy>0.09323045669659188</iyy>
+					<iyz>-0.004251240369039402</iyz>
+					<izz>0.001731262823495427</izz>
+				</inertia>
+			</inertial>
+			<collision name="shoulder_left_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/shoulder_left_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="shoulder_left_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/shoulder_left_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow_left_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.22077909562923648 0.09090793509010689 1.1370189040829801 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06979038134801813</mass>
+				<inertia>
+					<ixx>0.09081425429323724</ixx>
+					<ixy>-0.0014007328524469087</ixy>
+					<ixz>-0.017519479803645124</ixz>
+					<iyy>0.0936393100553545</iyy>
+					<iyz>-0.007213815820121076</iyz>
+					<izz>0.003990233729513113</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_left_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_left_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_left_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_left_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow_left_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.22077909562924014 0.09090793509010685 1.1370189040829806 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.04678255835713113</mass>
+				<inertia>
+					<ixx>0.06087293660071606</ixx>
+					<ixy>-0.0009389526915690102</ixy>
+					<ixz>-0.011743825874994982</ixz>
+					<iyy>0.06276665509745787</iyy>
+					<iyz>-0.004835634267414609</iyz>
+					<izz>0.00267222569517918</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_left_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_left_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_left_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_left_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_left_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.2662790956292362 0.07390793509011027 0.8690189040829803 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.06979038134801813</mass>
+				<inertia>
+					<ixx>0.053098136238932704</ixx>
+					<ixy>-0.0013734843440707076</ixy>
+					<ixz>-0.01614960366575269</ixz>
+					<iyy>0.05766537051164586</iyy>
+					<iyz>-0.004482454233363436</iyz>
+					<izz>0.0053413251174182505</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_left_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_left_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_left_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_left_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_left_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.26627909562923857 0.07390793509011011 0.8690189040829832 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.04678255835713114</mass>
+				<inertia>
+					<ixx>0.03559070630194089</ixx>
+					<ixy>-0.0009206872098703459</ixy>
+					<ixz>-0.010825557352525892</ixz>
+					<iyy>0.03865225862142774</iyy>
+					<iyz>-0.0030047217496892153</iyz>
+					<izz>0.003577902243718102</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_left_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_left_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_left_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_left_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="chest">
+			<self_collide>false</self_collide>
+			<pose frame="">0.004521272957010024 0.02235164750395904 1.3280148320316045 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>1.8912664692997008</mass>
+				<inertia>
+					<ixx>3.4955944466766224</ixx>
+					<ixy>-0.0009738608206707028</ixy>
+					<ixz>-0.012617553767272353</ixz>
+					<iyy>3.4977368701708142</iyy>
+					<iyz>-0.05645988820816441</iyz>
+					<izz>0.005072780338014698</izz>
+				</inertia>
+			</inertial>
+			<collision name="chest_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/chest.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="chest_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/chest.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="upper_arm_left">
+			<self_collide>false</self_collide>
+			<pose frame="">0.21623978254644793 0.08717470687284033 1.174580238551711 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11563830149074944</mass>
+				<inertia>
+					<ixx>0.1614295320703425</ixx>
+					<ixy>-0.0021907104988883584</ixy>
+					<ixz>-0.02926160829822963</ixz>
+					<iyy>0.16596168738254902</iyy>
+					<iyz>-0.011743914821209485</iyz>
+					<izz>0.006331747557803913</izz>
+				</inertia>
+			</inertial>
+			<collision name="upper_arm_left_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/upper_arm_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="upper_arm_left_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/upper_arm_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="lower_arm_left">
+			<self_collide>false</self_collide>
+			<pose frame="">0.26095428152989925 0.07631589663805255 0.9072943303848886 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.11563830149074951</mass>
+				<inertia>
+					<ixx>0.09690877691623682</ixx>
+					<ixy>-0.0022945620539641613</ixy>
+					<ixz>-0.02724637005449049</ixz>
+					<iyy>0.1041241157242805</iyy>
+					<iyz>-0.008071493904890386</iyz>
+					<izz>0.00859344128245684</izz>
+				</inertia>
+			</inertial>
+			<collision name="lower_arm_left_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/lower_arm_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="lower_arm_left_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/lower_arm_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="hand_left">
+			<self_collide>false</self_collide>
+			<pose frame="">0.27653519146500527 0.0739076596432261 0.8690191311766087 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.016515273339096418</mass>
+				<inertia>
+					<ixx>0.01256272177058364</ixx>
+					<ixy>-0.0003375402485974123</ixy>
+					<ixz>-0.003968857574575631</ixz>
+					<iyy>0.013735905138425972</iyy>
+					<iyz>-0.0010607292672196462</iyz>
+					<izz>0.0013538779291615627</izz>
+				</inertia>
+			</inertial>
+			<collision name="hand_left_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/hand_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="hand_left_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/hand_left.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow_ring_right_0">
+			<self_collide>false</self_collide>
+			<pose frame="">0.22077909562921655 0.09090793509000943 1.1360189040829776 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.010912714781324565</mass>
+				<inertia>
+					<ixx>0.01419074690356705</ixx>
+					<ixy>-0.00021902442440232354</ixy>
+					<ixz>-0.00273700955071246</ixz>
+					<iyy>0.01463248439199843</iyy>
+					<iyz>-0.0011269902427482282</iyz>
+					<izz>0.0006566570598721176</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_ring_right_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_ring_right_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow_ring_right_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.22077909562921658 0.09090793509000968 1.136018904082979 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.010912714781324566</mass>
+				<inertia>
+					<ixx>0.014190746903567055</ixx>
+					<ixy>-0.0002190244244023235</ixy>
+					<ixz>-0.002737009550712461</ixz>
+					<iyy>0.014632484391998435</iyy>
+					<iyz>-0.0011269902427482276</iyz>
+					<izz>0.0006566570598721181</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_ring_right_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_ring_right_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="elbow_ring_right_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.22077909562921658 0.09090793509000968 1.136018904082979 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.010912714781324566</mass>
+				<inertia>
+					<ixx>0.014190746903567055</ixx>
+					<ixy>-0.0002190244244023235</ixy>
+					<ixz>-0.002737009550712461</ixz>
+					<iyy>0.014632484391998435</iyy>
+					<iyz>-0.0011269902427482276</iyz>
+					<izz>0.0006566570598721181</izz>
+				</inertia>
+			</inertial>
+			<collision name="elbow_ring_right_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="elbow_ring_right_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/elbow_ring_right_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_ring_right_0">
+			<self_collide>false</self_collide>
+			<pose frame="">0.2662790956292153 0.07390793509001294 0.8680189040829813 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.010912714781324936</mass>
+				<inertia>
+					<ixx>0.008299146770577722</ixx>
+					<ixy>-0.00021476373411255599</ixy>
+					<ixz>-0.0025223134822274225</ixz>
+					<iyy>0.00901329854901675</iyy>
+					<iyz>-0.0007000886820672948</iyz>
+					<izz>0.00086791933806763</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_ring_right_0_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_ring_right_0_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_0.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_ring_right_1">
+			<self_collide>false</self_collide>
+			<pose frame="">0.26627909562921576 0.07390793509001321 0.8680189040829832 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.01091271478132496</mass>
+				<inertia>
+					<ixx>0.00829914677057774</ixx>
+					<ixy>-0.00021476373411255658</ixy>
+					<ixz>-0.0025223134822274255</ixz>
+					<iyy>0.00901329854901677</iyy>
+					<iyz>-0.0007000886820672974</iyz>
+					<izz>0.00086791933806763</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_ring_right_1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_ring_right_1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wrist_ring_right_2">
+			<self_collide>false</self_collide>
+			<pose frame="">0.26627909562921626 0.07390793509001388 0.8680189040829841 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.010912714781324974</mass>
+				<inertia>
+					<ixx>0.008299146770577751</ixx>
+					<ixy>-0.00021476373411255756</ixy>
+					<ixz>-0.00252231348222743</ixz>
+					<iyy>0.009013298549016781</iyy>
+					<iyz>-0.0007000886820673012</iyz>
+					<izz>0.0008679193380676319</izz>
+				</inertia>
+			</inertial>
+			<collision name="wrist_ring_right_2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wrist_ring_right_2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/wrist_ring_right_2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_0_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-9.11452600196883e-19 9.969012814653408e-18 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>0.06433157741988556</ixx>
+					<ixy>1.9515639104739082e-22</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.06433157741988556</iyy>
+					<iyz>-5.662137425588299e-19</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_0_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_0_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_0_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">5.453625997022458e-19 -1.275479806230372e-17 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>0.005063893851687673</ixx>
+					<ixy>8.85142653617169e-24</ixy>
+					<ixz>-3.550102919969143e-21</ixz>
+					<iyy>0.005063893851687673</iyy>
+					<iyz>5.169475958410885e-20</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_0_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_0_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_0_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_1_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-9.11452600196883e-19 9.969012814653408e-18 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>0.06433157741988556</ixx>
+					<ixy>1.9515639104739082e-22</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.06433157741988556</iyy>
+					<iyz>-5.662137425588299e-19</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_1_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_1_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_1_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">5.453625997022458e-19 -1.275479806230372e-17 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>0.005063893851687673</ixx>
+					<ixy>8.85142653617169e-24</ixy>
+					<ixz>-3.550102919969143e-21</ixz>
+					<iyy>0.005063893851687673</iyy>
+					<iyz>5.169475958410885e-20</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_1_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_1_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_1_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_2_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-9.11452600196883e-19 9.969012814653408e-18 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>0.06433157741988556</ixx>
+					<ixy>1.9515639104739082e-22</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.06433157741988556</iyy>
+					<iyz>-5.662137425588299e-19</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_2_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_2_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_elbow_2_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">5.453625997022458e-19 -1.275479806230372e-17 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>0.005063893851687673</ixx>
+					<ixy>8.85142653617169e-24</ixy>
+					<ixz>-3.550102919969143e-21</ixz>
+					<iyy>0.005063893851687673</iyy>
+					<iyz>5.169475958410885e-20</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_elbow_2_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_elbow_2_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_elbow_2_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_0_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-9.11452600196883e-19 9.969012814653408e-18 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>0.06433157741988556</ixx>
+					<ixy>1.9515639104739082e-22</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.06433157741988556</iyy>
+					<iyz>-5.662137425588299e-19</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_0_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_0_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_0_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">5.453625997022458e-19 -1.275479806230372e-17 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>0.005063893851687673</ixx>
+					<ixy>8.85142653617169e-24</ixy>
+					<ixz>-3.550102919969143e-21</ixz>
+					<iyy>0.005063893851687673</iyy>
+					<iyz>5.169475958410885e-20</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_0_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_0_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_0_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_1_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-9.11452600196883e-19 9.969012814653408e-18 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>0.06433157741988556</ixx>
+					<ixy>1.9515639104739082e-22</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.06433157741988556</iyy>
+					<iyz>-5.662137425588299e-19</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_1_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_1_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_1_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">5.453625997022458e-19 -1.275479806230372e-17 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>0.005063893851687673</ixx>
+					<ixy>8.85142653617169e-24</ixy>
+					<ixz>-3.550102919969143e-21</ixz>
+					<iyy>0.005063893851687673</iyy>
+					<iyz>5.169475958410885e-20</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_1_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_1_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_1_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_2_link1">
+			<self_collide>false</self_collide>
+			<pose frame="">-9.11452600196883e-19 9.969012814653408e-18 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.03806502884740436</mass>
+				<inertia>
+					<ixx>0.06433157741988556</ixx>
+					<ixy>1.9515639104739082e-22</ixy>
+					<ixz>0.0</ixz>
+					<iyy>0.06433157741988556</iyy>
+					<iyz>-5.662137425588299e-19</iyz>
+					<izz>1.6786677721705307e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_2_link1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_2_link1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="outer_sphere_wrist_2_link2">
+			<self_collide>false</self_collide>
+			<pose frame="">5.453625997022458e-19 -1.275479806230372e-17 1.3 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>0.0029963725331776064</mass>
+				<inertia>
+					<ixx>0.005063893851687673</ixx>
+					<ixy>8.85142653617169e-24</ixy>
+					<ixz>-3.550102919969143e-21</ixz>
+					<iyy>0.005063893851687673</iyy>
+					<iyz>5.169475958410885e-20</iyz>
+					<izz>2.4270617518738147e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="outer_sphere_wrist_2_link2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="outer_sphere_wrist_2_link2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://vrsphere/meshes/CAD/outer_sphere_wrist_2_link2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="elbow_ring_right_0" type="revolute">
+			<parent>upper_arm_left</parent>
+			<child>elbow_ring_right_0</child>
+			<pose frame="">2.142286348316702e-14 9.725553695716371e-14 0.001000000000003496 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3362936015662732e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_ring_right_0" type="revolute">
+			<parent>lower_arm_left</parent>
+			<child>wrist_ring_right_0</child>
+			<pose frame="">2.369660023759934e-14 9.693579272607167e-14 0.001000000000003638 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3376813803470653e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_ring_right_1" type="revolute">
+			<parent>upper_arm_left</parent>
+			<child>elbow_ring_right_1</child>
+			<pose frame="">2.1387336346379017e-14 9.700684699964768e-14 0.0010000000000020748 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3362936015662732e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_ring_right_2" type="revolute">
+			<parent>upper_arm_left</parent>
+			<child>elbow_ring_right_2</child>
+			<pose frame="">2.1387336346379017e-14 9.700684699964768e-14 0.0010000000000020748 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3362936015662732e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_ring_right_1" type="revolute">
+			<parent>lower_arm_left</parent>
+			<child>wrist_ring_right_1</child>
+			<pose frame="">2.327027459614328e-14 9.665157563176763e-14 0.0010000000000017907 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3376813803470653e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_ring_right_2" type="revolute">
+			<parent>lower_arm_left</parent>
+			<child>wrist_ring_right_2</child>
+			<pose frame="">2.277289468111121e-14 9.598544181699254e-14 0.0010000000000009379 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3376813803470653e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_0_axis0" type="revolute">
+			<parent>base</parent>
+			<child>outer_sphere_wrist_0_link1</child>
+			<pose frame="">9.11452600196883e-19 -9.969012814653408e-18 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_0_axis1" type="revolute">
+			<parent>outer_sphere_wrist_0_link1</parent>
+			<child>outer_sphere_wrist_0_link2</child>
+			<pose frame="">-5.453625997022458e-19 1.275479806230372e-17 0.0 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_0_axis2" type="revolute">
+			<parent>outer_sphere_wrist_0_link2</parent>
+			<child>outer_sphere_wrist_0</child>
+			<pose frame="">-1.134613714288738 1.938089543573763e-09 -7.230364755145047e-05 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_1_axis0" type="revolute">
+			<parent>base</parent>
+			<child>outer_sphere_elbow_1_link1</child>
+			<pose frame="">9.11452600196883e-19 -9.969012814653408e-18 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_1_axis1" type="revolute">
+			<parent>outer_sphere_elbow_1_link1</parent>
+			<child>outer_sphere_elbow_1_link2</child>
+			<pose frame="">-5.453625997022458e-19 1.275479806230372e-17 0.0 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_1_axis2" type="revolute">
+			<parent>outer_sphere_elbow_1_link2</parent>
+			<child>outer_sphere_elbow_1</child>
+			<pose frame="">-1.134613714288738 1.938089543573763e-09 -7.230364755145047e-05 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_1_axis0" type="revolute">
+			<parent>base</parent>
+			<child>outer_sphere_wrist_1_link1</child>
+			<pose frame="">9.11452600196883e-19 -9.969012814653408e-18 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_1_axis1" type="revolute">
+			<parent>outer_sphere_wrist_1_link1</parent>
+			<child>outer_sphere_wrist_1_link2</child>
+			<pose frame="">-5.453625997022458e-19 1.275479806230372e-17 0.0 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_1_axis2" type="revolute">
+			<parent>outer_sphere_wrist_1_link2</parent>
+			<child>outer_sphere_wrist_1</child>
+			<pose frame="">-1.134613714288738 1.938089543573763e-09 -7.230364755145047e-05 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="spine_axis0" type="revolute">
+			<parent>base</parent>
+			<child>spine_link1</child>
+			<pose frame="">-3.347322419244847e-16 -3.3306690738754695e-17 8.526512829121202e-16 0 0 0</pose>
+			<axis>
+				<xyz>1.0000000000000053 6.73689136906337e-16 1.0065667721348744e-16</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="spine_axis2" type="revolute">
+			<parent>spine_link2</parent>
+			<child>chest</child>
+			<pose frame="">-0.009300368586315643 -0.0024437124138561583 -0.29799592794861496 0 0 0</pose>
+			<axis>
+				<xyz>2.307670315019812e-16 1.3911956592616423e-14 -0.9999999999999993</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="spine_axis1" type="revolute">
+			<parent>spine_link1</parent>
+			<child>spine_link2</child>
+			<pose frame="">-8.953948693601887e-16 6.24833962348248e-11 9.080793006432941e-11 0 0 0</pose>
+			<axis>
+				<xyz>7.400103343713671e-18 1.0000000000000022 1.3884201017000802e-14</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_0_axis0" type="revolute">
+			<parent>base</parent>
+			<child>outer_sphere_elbow_0_link1</child>
+			<pose frame="">9.11452600196883e-19 -9.969012814653408e-18 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_0_axis1" type="revolute">
+			<parent>outer_sphere_elbow_0_link1</parent>
+			<child>outer_sphere_elbow_0_link2</child>
+			<pose frame="">-5.453625997022458e-19 1.275479806230372e-17 0.0 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_0_axis2" type="revolute">
+			<parent>outer_sphere_elbow_0_link2</parent>
+			<child>outer_sphere_elbow_0</child>
+			<pose frame="">-1.134613714288738 1.938089543573763e-09 -7.230364755145047e-05 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_left_axis0" type="revolute">
+			<parent>chest</parent>
+			<child>shoulder_left_link1</child>
+			<pose frame="">3.730349362740526e-15 -2.1316282072803005e-16 1.1368683772161603e-15 0 0 0</pose>
+			<axis>
+				<xyz>-2.530475828876892e-13 1.3512842414025931e-14 -1.0000000000000047</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_left_axis2" type="revolute">
+			<parent>shoulder_left_link2</parent>
+			<child>upper_arm_left</child>
+			<pose frame="">-0.03546068691714194 -0.022266771782736665 0.225438665531279 0 0 0</pose>
+			<axis>
+				<xyz>0.9999999999999986 -1.4099372581154704e-16 -2.5068835896036035e-13</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="shoulder_left_axis1" type="revolute">
+			<parent>shoulder_left_link1</parent>
+			<child>shoulder_left_link2</child>
+			<pose frame="">-8.881784197001252e-16 -6.217248937900877e-17 2.842170943040401e-16 0 0 0</pose>
+			<axis>
+				<xyz>-8.544045600203714e-17 -1.0000000000000022 -1.4012442775107326e-14</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_left_axis0" type="revolute">
+			<parent>upper_arm_left</parent>
+			<child>elbow_left_link1</child>
+			<pose frame="">1.4921397450962103e-15 -2.1316282072803005e-16 9.947598300641404e-16 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3362936015662732e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="elbow_left_axis2" type="revolute">
+			<parent>elbow_left_link2</parent>
+			<child>lower_arm_left</child>
+			<pose frame="">-0.04017518590065869 0.014592038452053951 0.22972457369809107 0 0 0</pose>
+			<axis>
+				<xyz>0.999999999999999 -1.271159380672511e-16 -2.512989816239043e-13</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="ankle_right_axis1" type="revolute">
+			<parent>elbow_left_link1</parent>
+			<child>elbow_left_link2</child>
+			<pose frame="">-5.151434834260726e-15 -1.2434497875801754e-16 -1.5631940186722204e-15 0 0 0</pose>
+			<axis>
+				<xyz>-1.098840534250102e-16 -0.9999999999999998 -1.3890291952359812e-14</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_left_axis0" type="revolute">
+			<parent>lower_arm_left</parent>
+			<child>wrist_left_link1</child>
+			<pose frame="">2.842170943040401e-15 -4.085620730620576e-16 4.6895820560166614e-15 0 0 0</pose>
+			<axis>
+				<xyz>-2.5321411634138253e-13 1.3376813803470653e-14 -1.0000000000000056</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_left_axis2" type="revolute">
+			<parent>wrist_left_link2</parent>
+			<child>hand_left</child>
+			<pose frame="">-0.010256095835767205 2.7544688370184643e-07 -2.2709362653472454e-07 0 0 0</pose>
+			<axis>
+				<xyz>0.999999999999999 -7.160478683644449e-17 -2.512989816239043e-13</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="wrist_left_axis1" type="revolute">
+			<parent>wrist_left_link1</parent>
+			<child>wrist_left_link2</child>
+			<pose frame="">-3.765876499528531e-15 -6.217248937900877e-17 -2.9842794901924207e-15 0 0 0</pose>
+			<axis>
+				<xyz>-5.4372902193359515e-17 -0.9999999999999998 -1.3931925315783262e-14</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_2_axis0" type="revolute">
+			<parent>base</parent>
+			<child>outer_sphere_elbow_2_link1</child>
+			<pose frame="">9.11452600196883e-19 -9.969012814653408e-18 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_2_axis1" type="revolute">
+			<parent>outer_sphere_elbow_2_link1</parent>
+			<child>outer_sphere_elbow_2_link2</child>
+			<pose frame="">-5.453625997022458e-19 1.275479806230372e-17 0.0 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_elbow_2_axis2" type="revolute">
+			<parent>outer_sphere_elbow_2_link2</parent>
+			<child>outer_sphere_elbow_2</child>
+			<pose frame="">-1.134613714288738 1.938089543573763e-09 -7.230364755145047e-05 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_2_axis0" type="revolute">
+			<parent>base</parent>
+			<child>outer_sphere_wrist_2_link1</child>
+			<pose frame="">9.11452600196883e-19 -9.969012814653408e-18 0.0 0 0 0</pose>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_2_axis1" type="revolute">
+			<parent>outer_sphere_wrist_2_link1</parent>
+			<child>outer_sphere_wrist_2_link2</child>
+			<pose frame="">-5.453625997022458e-19 1.275479806230372e-17 0.0 0 0 0</pose>
+			<axis>
+				<xyz>0.0 1.0 0.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="outer_sphere_wrist_2_axis2" type="revolute">
+			<parent>outer_sphere_wrist_2_link2</parent>
+			<child>outer_sphere_wrist_2</child>
+			<pose frame="">-1.134613714288738 1.938089543573763e-09 -7.230364755145047e-05 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-3.141592653589793</lower>
+					<upper>3.141592653589793</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin"/>
+	</model>
+</sdf>
